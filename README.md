@@ -150,7 +150,7 @@ vscode에서 왼쪽 Activity Bar 의 `실행 및 디버그`를 선택한 후 `Ru
 
 ### 초기 실행 화면
 ```
-![실행 화면](./docs/init.png)
+![실행 화면](docs/init.png)
 ```
 
 ### Primary Sidebar 화면
@@ -162,12 +162,12 @@ vscode에서 왼쪽 Activity Bar 의 `실행 및 디버그`를 선택한 후 `Ru
 - Enter AMDP : 서비스를 외부 Browser 로 디스플레이 합니다. 
 
 ```
-![실행 화면](./docs/psidebar.png)
+![실행 화면](docs/psidebar.png)
 ```
 
 ### WebView 화면
 ```
-![실행 화면](./docs/jsonplaceholder.png)
+![실행 화면](docs/jsonplaceholder.png)
 ```
 
 ## extension 게시
