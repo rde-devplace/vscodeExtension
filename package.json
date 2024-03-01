@@ -1,0 +1,59 @@
+{
+  "name": "vscodeextension",
+  "displayName": "vscodeExtension",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.86.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "myExtension.openWebView"
+  ],
+  "main": "./src/extension.js",
+  "contributes": {
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "myViewContainer",
+          "title": "My View Title",
+          "icon": "./icons/dark.svg"
+        }
+      ]
+    },
+    "views": {
+      "myViewContainer": [
+        {
+          "id": "myView",
+          "name": "my View"
+        }
+      ]
+    },
+    "commands": [
+      {
+        "command": "myExtension.openWebView",
+        "title": "Open JSON Viewer"
+      }
+    ]
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.6",
+    "@types/node": "18.x",
+    "@types/vscode": "^1.86.0",
+    "@vscode/test-cli": "^0.0.6",
+    "@vscode/test-electron": "^2.3.9",
+    "eslint": "^8.56.0",
+    "typescript": "^5.3.3"
+  },
+  "icon": "images/icon.png",
+  "dependencies": {
+    "axios": "^1.6.7"
+  }
+}
