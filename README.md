@@ -149,9 +149,10 @@ npm install axios
 vscode에서 왼쪽 Activity Bar 의 `실행 및 디버그`를 선택한 후 `Run Extension`을 실행하면 다음과 같은 화면이 뜬다. 
 
 ### 초기 실행 화면
-```
+Rune Extension 시 왼쪽 Activity bar에 dark.svg icon이 표시됩니다. 
+
 ![실행 화면](docs/init.png)
-```
+
 
 ### Primary Sidebar 화면
 3가지 메뉴를 제공하고 있습니다. 
@@ -161,14 +162,13 @@ vscode에서 왼쪽 Activity Bar 의 `실행 및 디버그`를 선택한 후 `Ru
   그리고 text box와 button 예시를 표시합니다. (이 박스는 동작하지 않습니다)
 - Enter AMDP : 서비스를 외부 Browser 로 디스플레이 합니다. 
 
-```
 ![실행 화면](docs/psidebar.png)
-```
+
 
 ### WebView 화면
-```
+
 ![실행 화면](docs/jsonplaceholder.png)
-```
+
 
 ## extension 게시
 extension 기능을 완성한 후, 이를 VS Code 마켓플레이스에 게시하여 다른 사용자와 공유할 수 있습니다.
