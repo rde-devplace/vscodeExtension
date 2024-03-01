@@ -28,7 +28,7 @@ yo doctor
 sudo npm install -g yo generator-code
 ```
 
-### 확장 스캐폴드 생성 및 설정
+### extension 스캐폴드 생성 및 설정
 
 ```bash
 yo code
@@ -71,9 +71,9 @@ cd my-extension
 npm install
 ```
 
-## 확장 구조
+## extension 구조
 
-기본적인 확장 구조는 다음과 같으며, 여기에는 소스 코드, 문서화 자료, 아이콘 등이 포함됩니다.
+기본적인 extension 구조는 다음과 같으며, 여기에는 소스 코드, 문서화 자료, 아이콘 등이 포함됩니다.
 확장의 구조는 다음과 같을 것입니다:
 
 ```
@@ -86,7 +86,7 @@ my-extension/
 │   tsconfig.json
 ├── src/
 │   └── extension.js
-├── doc/
+├── docs/
 │   └── <스크린샷 및 문서>
 └── icons/
     └── dark.svg
@@ -94,7 +94,7 @@ my-extension/
 
 ## 개발
 
-확장의 주요 로직은 `./src` 디렉토리에 위치한 `extension.js`에 있습니다. 제공된 코드의 간략한 개요는 다음과 같습니다:
+extension의 주요 로직은 `./src` 디렉토리에 위치한 `extension.js`에 있습니다. 제공된 코드의 간략한 개요는 다음과 같습니다:
 
 `extension.js`
 
@@ -107,7 +107,7 @@ my-extension/
 
 `package.json`
 
-이 파일은 확장의 메타데이터를 포함하고 커맨드, 뷰 등을 정의합니다:
+이 파일은 extension의 메타데이터를 포함하고 커맨드, 뷰 등을 정의합니다:
 
 ```json
 {
